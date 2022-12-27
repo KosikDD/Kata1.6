@@ -753,11 +753,11 @@ label {
 
 /* Все изображения для кнопок */
 .exit-button::before {
-  content: url("/src/img/exit.svg");
+  content: url("/img/exit.svg");
   padding-top: 5px; }
 
 .search-button::before {
-  content: url("/src/img/search.svg");
+  content: url("/img/search.svg");
   padding-top: 5px; }
 
 .aside__main {
