@@ -1,0 +1,27 @@
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-family: 'TTLakes-Medium', sans-serif;
+  color: #7e7e82;
+  padding: 32px 24px 24px 24px;
+  font-size: 14px;
+  line-height: 16px;
+  opacity: 0.72;
+  box-shadow: 0 -1px #d9fff5;
+}
+
+@media (max-width: 767px) {
+  .footer {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1120px) {
+  .footer {
+    padding: 32px;
+  }
+}

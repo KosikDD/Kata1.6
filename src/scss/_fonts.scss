@@ -1,0 +1,19 @@
+/* Подключение шрифтов из папки fonts*/
+@font-face {
+  font-family: TTLakes-Medium;
+  src: url('../fonts/TTLakes-Medium.woff') format('woff'),
+    url('../fonts/TTLakes-Medium.ttf') format('truetype');
+  font-display: block;
+}
+@font-face {
+  font-family: TTLakes-Bold;
+  src: url('../fonts/TTLakes-Bold.woff') format('woff'),
+    url('../fonts/TTLakes-Bold.ttf') format('truetype');
+  font-display: block;
+}
+@font-face {
+  font-family: TTLakes-Regular;
+  src: url('../fonts/TTLakes-Regular.woff') format('woff'),
+    url('../fonts/TTLakes-Regular.ttf') format('truetype');
+  font-display: block;
+}
