@@ -84,12 +84,12 @@
 
 /* Все изображения для кнопок */
 .exit-button::before {
-  content: url('/img/exit.svg');
+  content: url('../img/exit.svg');
   padding-top: 5px;
 }
 
 .search-button::before {
-  content: url('/img/search.svg');
+  content: url('../img/search.svg');
   padding-top: 5px;
 }
 
