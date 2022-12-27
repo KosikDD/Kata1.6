@@ -388,7 +388,7 @@ label {
 
 .offer-txt::after {
   position: relative;
-  content: url("/src/img/Line.svg");
+  content: url(./static/Line.svg);
   padding-left: 10px;
   vertical-align: bottom;
   bottom: -1.5px; }
@@ -753,11 +753,11 @@ label {
 
 /* Все изображения для кнопок */
 .exit-button::before {
-  content: url("/img/exit.svg");
+  content: url(./static/exit.svg);
   padding-top: 5px; }
 
 .search-button::before {
-  content: url("/img/search.svg");
+  content: url(./static/search.svg);
   padding-top: 5px; }
 
 .aside__main {
