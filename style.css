@@ -52,6 +52,15 @@
 .brand--button:hover {
   transform: scale(1.2); }
 
+/* Все изображения для кнопок */
+.exit-button::before {
+  content: url(./static/exit.svg);
+  padding-top: 5px; }
+
+.search-button::before {
+  content: url(./static/search.svg);
+  padding-top: 5px; }
+
 .brand--button::before {
   content: url(./static/dropdown.svg);
   padding-left: 2px; }
@@ -67,7 +76,7 @@
   transition: transform 0.2s; }
 
 .read-more-text {
-  font-family: "TTLakes-Medium";
+  font-family: 'TTLakes-Medium';
   font-size: 16px;
   line-height: 24px;
   color: #1b1c21; }
@@ -734,31 +743,6 @@ label {
 .logo {
   vertical-align: middle;
   padding-left: 16.73px; }
-
-.button {
-  background-color: #ff3e79;
-  border: none;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  color: #ff3e79;
-  text-align: center;
-  text-decoration: none;
-  margin: 23px 8px;
-  cursor: pointer;
-  transition: transform 0.2s; }
-
-.button:hover {
-  transform: scale(1.2); }
-
-/* Все изображения для кнопок */
-.exit-button::before {
-  content: url(./static/exit.svg);
-  padding-top: 5px; }
-
-.search-button::before {
-  content: url(./static/search.svg);
-  padding-top: 5px; }
 
 .aside__main {
   margin-top: 30px; }
