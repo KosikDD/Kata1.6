@@ -39,7 +39,7 @@ function toggleChat() {
 }
 
 for (i of callModal) {
-  i.addEventListener("click", function (event) {
+  i.addEventListener("click", function () {
     
   modalChat.classList.remove("chat-modal_active");
     sidebar.classList.remove("sidebar_active");
@@ -49,7 +49,7 @@ for (i of callModal) {
 }
 
 for (i of chatModal) {
-  i.addEventListener("click", function (event) {
+  i.addEventListener("click", function () {
     modalCall.classList.remove("call-modal_active");
     sidebar.classList.remove("sidebar_active");
     modalChat.classList.toggle("chat-modal_active");
