@@ -3,7 +3,6 @@ const readmoreText = document.querySelector('.read-more-text');
 const arrow = document.querySelector('.arrow');
 const brand_elements = document.querySelectorAll('.brand');
 
-
 function hide(elements, event) {
   for (element of elements){ 
 

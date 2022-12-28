@@ -1,8 +1,10 @@
+import 'swiper/modules/pagination/pagination.scss'
+import 'swiper/swiper.scss'
 import '../scss/style.scss'
 import './burger'
 import './modal.js'
-import './script.js'
 import './swiper.js'
 import './tech.js'
 import './text.js'
+import './script.js'
 console.log('Works!')
