@@ -1,78 +1,83 @@
 .button {
   background-color: #ff3e79;
-
   border: none;
   border-radius: 50%;
-
   width: 40px;
   height: 40px;
-
   color: #ff3e79;
   text-align: center;
   text-decoration: none;
-
   margin: 24px 8px;
-
   transition: transform 0.2s;
+  &:hover {
+    transform: scale(1.2);
+  }
 }
-
-.button:hover {
-  transform: scale(1.2);
+.menu-button {
+  &::before {
+    content: url('../img/menu.svg');
+    padding-top: 5px;
+  }
 }
-
-/* Все изображения для кнопок */
-.menu-button::before {
-  content: url("../img/menu.svg");
-  padding-top: 5px;
+.call-button {
+  &::before {
+    content: url('../img/call.svg');
+    padding-top: 5px;
+  }
 }
-
-.call-button::before {
-  content: url("../img/call.svg");
-  padding-top: 5px;
+.message-button {
+  &::before {
+    content: url('../img/message.svg');
+    padding-top: 5px;
+  }
 }
-
-.message-button::before {
-  content: url("../img/message.svg");
-  padding-top: 5px;
+.profile-button {
+  &::before {
+    content: url('../img/profile.svg');
+    padding-top: 5px;
+  }
 }
-
-.profile-button::before {
-  content: url("../img/profile.svg");
-  padding-top: 5px;
+.application-button {
+  &::before {
+    content: url('../img/application.svg');
+    padding-top: 5px;
+  }
 }
-
-.application-button::before {
-  content: url("../img/application.svg");
-  padding-top: 5px;
+.status-button {
+  &::before {
+    content: url('../img/status.svg');
+    padding-top: 5px;
+  }
 }
-
-.status-button::before {
-  content: url("../img/status.svg");
-  padding-top: 5px;
-}
-
 .brand--button {
   position: relative;
   background-color: transparent;
   border: 2px solid #ff3e79;
   border-radius: 50%;
-
   width: 40px;
   height: 40px;
   transition: transform 0.2s;
-
   cursor: pointer;
+  &:hover {
+    transform: scale(1.2);
+  }
+  &::before {
+    content: url('../img/dropdown.svg');
+    padding-left: 2px;
+  }
 }
-
-.brand--button:hover {
-  transform: scale(1.2);
+.exit-button {
+  &::before {
+    content: url('../img/exit.svg');
+    padding-top: 5px;
+  }
 }
-
-.brand--button::before {
-  content: url("../img/dropdown.svg");
-  padding-left: 2px;
+.search-button {
+  &::before {
+    content: url('../img/search.svg');
+    padding-top: 5px;
+  }
 }
-
 .read-more {
   background-color: transparent;
   border: none;
@@ -82,15 +87,26 @@
   line-height: 24px;
   color: #1b1c21;
   transition: transform 0.2s;
+  &:hover {
+    transform: scale(1.1);
+  }
 }
-
 .read-more-text {
-  font-family: "TTLakes-Medium";
+  font-family: 'TTLakes-Medium';
   font-size: 16px;
   line-height: 24px;
   color: #1b1c21;
 }
-
-.read-more:hover {
-  transform: scale(1.1);
+.hidden-button {
+  display: none;
+}
+@media (min-width: 1120px) and (max-width: 1440px) {
+  .hidden-button {
+    scale: 1.2;
+    display: block;
+    position: fixed;
+    left: 20px;
+    bottom: 50px;
+    z-index: 2;
+  }
 }

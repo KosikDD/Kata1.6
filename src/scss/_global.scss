@@ -7,9 +7,16 @@
   padding: 0;
   margin: 0;
 }
-
 body {
-  font-family: "TTLakes-Medium";
+  font-family: 'TTLakes-Medium';
   font-weight: 500;
   background-color: #f8f8f8;
+}
+
+
+@media (min-width: 1440px) {
+  body {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
 }

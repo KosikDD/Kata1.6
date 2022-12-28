@@ -1,7 +1,7 @@
-let readmore = document.querySelector('.read-more');
-let readmoreText = document.querySelector('.read-more-text');
-let arrow = document.querySelector('.arrow');
-let brand_elements = document.querySelectorAll('.brand');
+const readmore = document.querySelector('.read-more');
+const readmoreText = document.querySelector('.read-more-text');
+const arrow = document.querySelector('.arrow');
+const brand_elements = document.querySelectorAll('.brand');
 
 
 function hide(elements, event) {

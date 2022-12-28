@@ -1,6 +1,6 @@
-let textTablet = document.querySelector(".info-box__tablet-content");
-let textDesktop = document.querySelector(".info-box__desktop-content");
-let textButton = document.querySelector(".info-box__btn");
+const textTablet = document.querySelector(".info-box__tablet-content");
+const textDesktop = document.querySelector(".info-box__desktop-content");
+const textButton = document.querySelector(".info-box__btn");
 
 function hidetext(event) {
   if (window.innerWidth < 768 && !textButton.classList.contains('alltext')) {

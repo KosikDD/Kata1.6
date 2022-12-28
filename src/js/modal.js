@@ -1,12 +1,12 @@
-let callModal = document.querySelectorAll(".call-button");
-let chatModal = document.querySelectorAll(".message-button");
-let buttonCall = document.querySelectorAll(".exit-button-call");
-let buttonChat = document.querySelectorAll(".exit-button-chat");
-let calloverlay = document.querySelector(".call-modal_overlay");
-let chatoverlay = document.querySelector(".chat-modal_overlay");
-let modalCall = document.querySelector(".call-modal");
-let modalChat = document.querySelector(".chat-modal");
-let sidebar = document.querySelector('.sidebar')
+const callModal = document.querySelectorAll(".call-button");
+const chatModal = document.querySelectorAll(".message-button");
+const buttonCall = document.querySelectorAll(".exit-button-call");
+const buttonChat = document.querySelectorAll(".exit-button-chat");
+const calloverlay = document.querySelector(".call-modal_overlay");
+const chatoverlay = document.querySelector(".chat-modal_overlay");
+const modalCall = document.querySelector(".call-modal");
+const modalChat = document.querySelector(".chat-modal");
+const sidebar = document.querySelector('.sidebar')
 
 for (j of buttonCall) {
   j.addEventListener("click", () => toggleCall());

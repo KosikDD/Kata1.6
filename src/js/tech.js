@@ -1,7 +1,7 @@
-let readmoretech = document.querySelector('.read-more-tech');
-let readmoretechText = document.querySelector('.read-more-tech-text');
-let arrows = document.querySelector('.arrow');
-let tech_elements = document.querySelectorAll('.tech');
+const readmoretech = document.querySelector('.read-more-tech');
+const readmoretechText = document.querySelector('.read-more-tech-text');
+const arrows = document.querySelector('.arrow');
+const tech_elements = document.querySelectorAll('.tech');
 
 
 function hide_tech(elements, event) {

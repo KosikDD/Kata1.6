@@ -54,7 +54,9 @@
       "autoprefixer": {}
     }
   },
-  "dependencies": {},
+  "dependencies": {
+    "swiper": "^8.4.5"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KosikDD/1.6.git"
