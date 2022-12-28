@@ -132,12 +132,6 @@ label {
   letter-spacing: 0.2px;
   color: #1b1c21;
 }
-.info-box__tablet-content {
-  display: none;
-}
-.info-box__desktop-content {
-  display: none;
-}
 .info-box__btn {
   width: fit-content;
   background-color: transparent;
@@ -267,10 +261,6 @@ label {
   .info-box__content {
     font-size: 14px;
     line-height: 20px;
-  }
-
-  .info-box__tablet-content {
-    display: inline;
   }
 
   .info-box__btn {
