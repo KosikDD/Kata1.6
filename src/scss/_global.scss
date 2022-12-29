@@ -11,11 +11,8 @@ body {
   font-family: 'TTLakes-Medium';
   font-weight: 500;
   background-color: #f8f8f8;
-}
 
-
-@media (min-width: 1440px) {
-  body {
+  @media (min-width: 1440px) {
     max-width: 1440px;
     margin: 0 auto;
   }

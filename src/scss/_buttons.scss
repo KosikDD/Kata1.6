@@ -99,9 +99,8 @@
 }
 .hidden-button {
   display: none;
-}
-@media (min-width: 1120px) and (max-width: 1440px) {
-  .hidden-button {
+
+  @media (min-width: 1120px) and (max-width: 1440px) {
     scale: 1.2;
     display: block;
     position: fixed;

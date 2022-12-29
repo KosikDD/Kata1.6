@@ -8,20 +8,16 @@
   line-height: 16px;
   opacity: 0.72;
   box-shadow: 0 -1px #d9fff5;
-}
 
-@media (max-width: 767px) {
-  .footer {
+  @media (max-width: 767px) {
     grid-template-columns: 1fr;
     justify-content: center;
     align-items: center;
     gap: 10px;
     text-align: center;
   }
-}
 
-@media (min-width: 1120px) {
-  .footer {
+  @media (min-width: 1120px) {
     padding: 32px;
   }
 }
